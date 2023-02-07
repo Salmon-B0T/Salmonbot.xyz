@@ -8,7 +8,7 @@ wait(0.5)
 character.HumanoidRootPart.CFrame = CFrame.new(0, 3, 0)
 
 while true do
-wait(0.01)
+wait()
 plr.Character.HumanoidRootPart.Anchored = true
 x = Instance.new("Part", game.Workspace)
 x.CFrame = CFrame.new(0, 1, 0)

@@ -1,33 +1,74 @@
 local plr = game:GetService("Players").LocalPlayer
 local character = plr.Character
-print("10")
-wait(1)
-print("9")
-wait(1)
-print("8")
-wait(1)
-print("7")
-wait(1)
-print("6")
-wait(1)
-print("5")
-wait(1)
-print("4")
-wait(1)
-print("3")
-wait(1)
-print("2")
-wait(1)
-print("1")
-wait(1)
-print("0")
 
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "10"; 
+Text = "10"; 
+Duration = 5; 
+wait(1)
+    
+game.StarterGui:SetCore("SendNotification", {
+Title = "9"; 
+Text = "9"; 
+Duration = 5; 
+wait(1)
+        
+game.StarterGui:SetCore("SendNotification", {
+Title = "8"; 
+Text = "8"; 
+Duration = 5; 
+wait(1)
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "7"; 
+Text = "7"; 
+Duration = 5; 
+wait(1)            
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "6"; 
+Text = "6"; 
+Duration = 5; 
+wait(1)
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "5"; 
+Text = "5"; 
+Duration = 5; 
+wait(1)                    
+                    
+game.StarterGui:SetCore("SendNotification", {
+Title = "4"; 
+Text = "4"; 
+Duration = 5; 
+wait(1)                    
+
+game.StarterGui:SetCore("SendNotification", {
+Title = "3"; 
+Text = "3"; 
+Duration = 5; 
+wait(1)                            
+                            
+game.StarterGui:SetCore("SendNotification", {
+Title = "2"; 
+Text = "2"; 
+Duration = 5; 
+wait(1)                            
+                            
+game.StarterGui:SetCore("SendNotification", {
+Title = "1"; 
+Text = "1"; 
+Duration = 5; 
+wait(1)                    
 character.HumanoidRootPart.CFrame = CFrame.new(0, 3, 0)
 
+game.StarterGui:SetCore("SendNotification", {
+Title = "0"; 
+Text = "0"; 
+Duration = 5; 
+wait(0.1)                                        
+                                        
 while true do
 plr.Character.HumanoidRootPart.Anchored = true
 x = Instance.new("Part", game.Workspace)

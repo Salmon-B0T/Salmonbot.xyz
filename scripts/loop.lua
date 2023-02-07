@@ -1,5 +1,31 @@
 local plr = game:GetService("Players").LocalPlayer
 local character = plr.Character
+print("10")
+wait(1)
+print("9")
+wait(1)
+print("8")
+wait(1)
+print("7")
+wait(1)
+print("6")
+wait(1)
+print("5")
+wait(1)
+print("4")
+wait(1)
+print("3")
+wait(1)
+print("2")
+wait(1)
+print("1")
+wait(1)
+print("0")
+
+
+
+
+
 character.HumanoidRootPart.CFrame = CFrame.new(0, 3, 0)
 
 while true do

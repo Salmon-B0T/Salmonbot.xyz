@@ -1,5 +1,4 @@
-print("starting in 10 seconds")
-wait(10)
+wait(1)
 local plr = game:GetService("Players").LocalPlayer
 local character = plr.Character
 character.HumanoidRootPart.CFrame = CFrame.new(0, 3, 0)

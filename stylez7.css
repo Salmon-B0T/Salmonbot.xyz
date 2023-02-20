@@ -1,0 +1,49 @@
+.center {
+    color:hwb(0 100% 0%); 
+    font-family:sans-serif; 
+    position: absolute;
+    text-align: center; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%)
+}
+
+.typewriter-text1{
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 15s;
+    animation-timing-function: steps(45, end);
+    animation-iteration-count: infinite;
+    }
+    
+    .typewriter-text1::after {
+    content: "|";
+    position: absolute;
+    animation: caret infinite;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(1, end);
+    }
+    
+    @keyframes typewriter1 {
+    0%,
+    50%,
+    100% {
+     width: 0;
+    }
+    10%,
+    40% {
+     width: 25em;
+    }
+    }
+
+    @keyframes caret {
+        0%,
+        100% {
+         opacity: 0;
+        }
+        50% {
+         opacity: 1;
+        }
+        }
